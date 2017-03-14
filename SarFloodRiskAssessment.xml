@@ -1,0 +1,21 @@
+<root>
+  <key>SarFloodRiskAssessment</key>
+  <exec>otbcli_SarFloodRiskAssessment</exec>
+  <longname>SarFloodRiskAssessment</longname>
+  <group>CRIM</group>
+  <description>Flood risk assessment</description>
+  <parameter>
+    <parameter_type source_parameter_type="ParameterType_InputImageList">ParameterMultipleInput</parameter_type>
+    <key>in</key>
+    <name>La liste des images</name>
+    <description>The input list image</description>
+	<datatype />
+  </parameter>
+ <parameter>
+    <parameter_type source_parameter_type="ParameterType_OutputVectorData">OutputVector</parameter_type>
+    <key>out</key>
+    <name>l'etendue des inondations</name>
+    <description>The output vector</description>
+    <hidden />
+  </parameter>
+ </root>
